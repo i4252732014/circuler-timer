@@ -1,0 +1,7 @@
+.textButton {
+  border: none;
+  background: none;
+  color: var(--white);
+  font-size: 120%;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.base-timer__path-remaining {
+  stroke-width: 10px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  fill-rule: nonzero;
+  stroke: currentColor;
+  stroke-dasharray: 630;
+  stroke-dashoffset: 0;
+  color: var(--superDarkGray);
+}
+@keyframes draw {
+  to {
+    stroke-dashoffset: 630;
+  }
+}
+.base-timer__path-remaining.paused {
+  animation-play-state: paused !important;
+}

@@ -1,0 +1,13 @@
+header {
+    background: var(--darkGray);
+    display: flex;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+header h1{
+    color: var(--white);
+    font-weight: normal;
+    flex-grow: 1;
+    text-align: center;
+}
